@@ -1,0 +1,26 @@
+@startuml
+
+class DeGramProfileDetails {
+    ' -- inheritance --
+
+    ' -- usingFor --
+
+    ' -- vars --
+	-[[DeGramProfile]] _deGramProfiles
+	-[[mapping address=>ProfileDetails ]] _profileDetails
+
+    ' -- methods --
+	+**__constructor__**()
+	+🔍profileDetails()
+	+updateProfileDetails()
+	+updateFullName()
+	+updateBio()
+	+updateProfilePicture()
+	+updateAge()
+	+updateAvatarFull()
+	+updateAvatarHalf()
+	+updateTimezone()
+
+}
+
+@enduml
